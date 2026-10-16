@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "jyesta-internship",
+    "role": "Cyber Security Intern",
+    "org": "Jyesta",
+    "type": "internship",
+    "range": "10 Jan to 10 Mar 2026",
+    "status": "Completed",
+    "points": [
+      "Two-month cybersecurity internship, certificate issued 18 Mar 2026 (ID JC-20260318-GPYK-N2Z)",
+      "Began with a one-month cybersecurity training programme, certificate issued 16 Feb 2026 (ID JC-20260216-LZ98UY-K)"
+    ],
+    "proof": ["jyesta-internship", "jyesta-training"],
+    "order": 0
+  },
+  {
+    "slug": "edxcellence",
+    "role": "Cyber Security and Ethical Hacking Intern",
+    "org": "EdXcellence LLP",
+    "type": "internship",
+    "range": "From 20 Jan 2026",
+    "status": "Offer received",
+    "points": [
+      "AICTE-approved, project-based internship in cybersecurity and ethical hacking"
+    ],
+    "proof": [],
+    "order": 1
+  },
+  {
+    "slug": "awareness-session",
+    "role": "Speaker",
+    "org": "ENTC Department, KBTCOE",
+    "type": "speaking",
+    "range": "2026",
+    "status": "Delivered",
+    "points": [
+      "Co-delivered a cybersecurity and networking awareness session for fellow students",
+      "Covered OSI and TCP/IP, DNS, HTTP and HTTPS, phishing and malware basics, and Linux security, with live Wireshark packet analysis"
+    ],
+    "proof": ["cyber-awareness-session"],
+    "order": 2
+  },
+  {
+    "slug": "technohacks",
+    "role": "Ethical Hacking Trainee",
+    "org": "TechnoHacks Solutions",
+    "type": "training",
+    "range": "Completed 1 Mar 2026",
+    "status": "Completed",
+    "points": ["Industrial training in ethical hacking"],
+    "proof": ["technohacks-eh"],
+    "order": 3
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "slug": "edupulse",
+    "name": "EduPulse",
+    "summary": "An AI-powered academic and career navigation platform that groups students by performance, builds personalised career roadmaps and keeps parents informed.",
+    "status": "3rd place, International UAi Hawk-athon",
+    "featured": true,
+    "problem": "",
+    "built": [
+      "Student clustering with K-Means++ (scikit-learn) behind a Python Flask service",
+      "AI career roadmaps generated with Google Gemini",
+      "Parent alerts sent over SMTP, with the message written by Gemini",
+      "A gamified student space called Sparky World",
+      "A Gemini-powered chatbot"
+    ],
+    "outcome": "Built by Team AI OverLords. 3rd place among 114 teams at the International UAi Hawk-athon (Universal AI University, Karjat, 12-13 March 2026). Also entered Innovate Maharashtra, the Gemini and Gen AI Hackathon.",
+    "stack": ["React", "Vite", "Node.js", "Express", "MongoDB Atlas", "Firebase Auth", "Python Flask", "scikit-learn", "Google Gemini", "OpenCV", "DeepFace"],
+    "links": [],
+    "order": 0
+  },
+  {
+    "slug": "route-resilience",
+    "name": "Route Resilience",
+    "summary": "Road extraction from satellite imagery when trees, buildings and shadows hide parts of the road, plus a graph analysis of which road segments a city can least afford to lose.",
+    "status": "Hackathon project",
+    "featured": true,
+    "problem": "Road maps built from aerial images break wherever the road is hidden. Missing segments distort network reconstruction and any mobility analysis built on it.",
+    "built": [
+      "Trained and evaluated HDDNet, a dual-decoder road-extraction model, on the DeepGlobe dataset in PyTorch",
+      "Fixed a decoder-collapse bug with auxiliary losses, an adjusted occlusion ratio and diagnostic logging",
+      "Occlusion experiments up to roughly 70 percent coverage",
+      "Graph-theoretic criticality analysis that ranks road segments by their effect on network connectivity"
+    ],
+    "outcome": "Final shipped model HDDNet v2 (epoch 30) reached a validation IoU of 0.5850, with max-ensemble and test-time augmentation as the recommended inference. Built by Team NeuralOrbit as ML engineer for the Bharatiya Antariksh Hackathon 2026 (ISRO x Hack2skill).",
+    "stack": [
+      "Python",
+      "PyTorch",
+      "CNN",
+      "Image segmentation",
+      "Graph theory",
+      "CUDA"
+    ],
+    "links": [],
+    "order": 1
+  },
+  {
+    "slug": "brainberry",
+    "name": "BrainBerry",
+    "summary": "A gamified learning web app for children aged 4 to 8, built around a pre-primary school's own syllabus.",
+    "status": "In development, school adopted",
+    "featured": true,
+    "problem": "Young children learn through play, and schools need digital lessons that follow the syllabus they already teach.",
+    "built": [
+      "A 44-page installable web app (PWA) in vanilla JavaScript on Firebase",
+      "XP and progress for children, with a parent area protected by a hashed PIN",
+      "A face-based avatar using face-api.js",
+      "Lessons for Nursery to Sr. KG, with about 40 percent of the school's syllabus built so far"
+    ],
+    "outcome": "Adopted by a pre-primary school in Nashik. Content is being built grade by grade, starting with Nursery.",
+    "stack": [
+      "JavaScript",
+      "Firebase",
+      "face-api.js",
+      "PWA"
+    ],
+    "links": [],
+    "order": 2
+  },
+  {
+    "slug": "finiq",
+    "name": "FinIQ",
+    "summary": "An AI personal-finance app for Android and iOS, aimed at a Play Store launch.",
+    "status": "In development",
+    "featured": true,
+    "problem": "People stop tracking money when logging takes effort, so the app has to make daily expense entry take seconds and turn the data into advice.",
+    "built": [
+      "Money Health Score across six dimensions, a FIRE planner and a tax wizard",
+      "Artha, an AI finance assistant on Gemini",
+      "Daily expense tracker, a markets screen and Smart Buy Lens (multimodal Gemini)",
+      "Flask API on MongoDB Atlas with Firebase Auth"
+    ],
+    "outcome": "Built with a team for the ET AI Hackathon 2026 and now being hardened toward a real launch.",
+    "stack": [
+      "Flutter",
+      "Riverpod",
+      "Python Flask",
+      "MongoDB Atlas",
+      "Firebase Auth",
+      "Gemini",
+      "Railway"
+    ],
+    "links": [
+      {
+        "label": "GitHub repository",
+        "url": "https://github.com/avishkar12006/finiq"
+      }
+    ],
+    "order": 3
+  },
+  {
+    "slug": "learning-platform",
+    "name": "Course and live-class platform",
+    "summary": "A freelance build of an education platform with recorded courses, live classes and a manual access panel for the admin.",
+    "status": "Freelance build",
+    "featured": true,
+    "problem": "A small teaching business needed to sell video courses and run live classes without building a media stack from scratch.",
+    "built": [
+      "Course video playback",
+      "Live streaming sized for about 50 students at once",
+      "An admin panel to grant student access by hand"
+    ],
+    "outcome": "Planned as five phases over about two and a half weeks, built for a client.",
+    "stack": [
+      "React",
+      "Vite",
+      "Node.js",
+      "Express",
+      "Supabase",
+      "Mux",
+      "100ms",
+      "Vercel",
+      "Railway"
+    ],
+    "links": [],
+    "order": 4
+  },
+  {
+    "slug": "regenfarm",
+    "name": "ReGenFarm",
+    "summary": "Turns crop residue from a disposal problem into a logistics one by pooling small farmers' supply to meet a buyer's minimum, then planning the collection route. Planned on Spring Boot and PostgreSQL with PostGIS.",
+    "status": "Hackathon concept",
+    "featured": false,
+    "built": [],
+    "stack": [],
+    "links": [],
+    "order": 5
+  },
+  {
+    "slug": "netramnova",
+    "name": "NetramNova",
+    "summary": "Explainable AI screening for diabetic retinopathy, for Smart India Hackathon 2026.",
+    "status": "SIH 2026",
+    "featured": false,
+    "built": [],
+    "stack": [],
+    "links": [],
+    "order": 6
+  },
+  {
+    "slug": "nashiknest",
+    "name": "NashikNest",
+    "summary": "Full-stack web app on React with PostgreSQL and Drizzle ORM.",
+    "status": "",
+    "featured": false,
+    "built": [],
+    "stack": [
+      "React",
+      "PostgreSQL",
+      "Drizzle ORM"
+    ],
+    "links": [],
+    "order": 7
+  },
+  {
+    "slug": "hostel-finder-nashik",
+    "name": "Hostel Finder Nashik",
+    "summary": "Helps students compare hostels in Nashik, with a responsive interface.",
+    "status": "",
+    "featured": false,
+    "built": [],
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Tailwind CSS"
+    ],
+    "links": [],
+    "order": 8
+  },
+  {
+    "slug": "student-record-api",
+    "name": "Student Record API",
+    "summary": "REST API for creating, reading, updating and deleting student records, tested with Postman.",
+    "status": "",
+    "featured": false,
+    "built": [],
+    "stack": [
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "links": [],
+    "order": 9
+  },
+  {
+    "slug": "expense-tracker",
+    "name": "Personal Expense Tracker",
+    "summary": "React app for logging expenses and seeing totals.",
+    "status": "",
+    "featured": false,
+    "built": [],
+    "stack": [
+      "React",
+      "JavaScript",
+      "CSS"
+    ],
+    "links": [],
+    "order": 10
+  }
+]

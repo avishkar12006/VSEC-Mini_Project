@@ -1,0 +1,5 @@
+node_modules
+.env
+uploads/full/*
+uploads/thumb/*
+data/messages.jsonl
